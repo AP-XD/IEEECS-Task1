@@ -1,39 +1,58 @@
-body{
-    background-image: url(./Background.png);
-    background-repeat: repeat-x;
-    padding: 30px;
-    font-family:'Lucida-sans';
+body {
+  background-image: url(./Background.png);
+  background-repeat: repeat-x;
+  padding: 30px;
+  font-family: 'Roboto', sans-serif;
 }
-.about{
-    color:#5ae3e3;
-    font-size: 50px;
+.about {
+  color: #5ae3e3;
+  font-size: 50px;
 }
-.head{
-    color:#5ae3e3;
+.head {
+  font-size: 30px;
+  color: #5ae3e3;
 }
-.para{
-    font-size: 1.1rem;
-    color: #fff;
-    padding:20px
-
+.para {
+  font-size: 1.1rem;
+  color: #fff;
+  padding: 20px;
 }
-.container{
-    display:flex; 
+.container {
+  display: flex;
 }
-.bottom{
-    padding-top: 120px;
-    display:flex;
-    flex-direction: row;
-    justify-content: flex-end;
+.bottom {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
-.logo{
-    padding-right: 40px;
+.logo {
+  color: #fff;
+  font-size: 35px;
+  padding-right: 40px;
 }
-.nav{
-    display:flex;
-    justify-content: space-between;
+.nav {
+  display: flex;
+  justify-content: space-between;
 }
-#hehe{
-    height:40px;
-    width: 40px;
+.hehe {
+  font-size: 64px;
+  color: #fff;
+}
+.about:hover,
+.head:hover {
+  font-weight: 900;
+  color: #d7faff;
+}
+.logo:hover,
+.hehe:hover {
+  color: #000;
+}
+.para:hover {
+  background-color: rgba(255, 255, 255, 0.171);
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 20px;
+  font-weight: 400;
+  border-radius: 20px;
 }
